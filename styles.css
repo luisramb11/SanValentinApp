@@ -1,0 +1,57 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #ffebee; /* Fondo rosado */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .container {
+    text-align: center;
+    background-color: #fff; /* Fondo blanco */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    color: #d32f2f; /* Rojo oscuro */
+    font-size: 2.5em;
+  }
+  
+  p {
+    font-size: 1.2em;
+    color: #555;
+  }
+  
+  .buttons {
+    margin-top: 20px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0 10px;
+  }
+  
+  #btnSi {
+    background-color: #d32f2f; /* Rojo oscuro */
+    color: white;
+  }
+  
+  #btnNo {
+    background-color: #ccc; /* Gris */
+    color: #333;
+  }
+  
+  #mensaje {
+    margin-top: 20px;
+    font-size: 1.5em;
+    color: #d32f2f; /* Rojo oscuro */
+    font-weight: bold;
+  }
